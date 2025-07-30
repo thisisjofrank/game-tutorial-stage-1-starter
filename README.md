@@ -25,13 +25,14 @@ By the end of Stage 1, you'll have:
 
 Deploy this starter kit and explore the code.
 
-[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/thisisjofrank/game-tutorial-stage-1-starter.git&install=deno+install)
+[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/thisisjofrank/game-tutorial-stage-1-starter.git&install=deno+install&mode=dynamic&entrypoint=src/main.ts)
 
 This button will create a new GitHub repository with the code from this starter
 kit and deploy it to Deno Deploy. Clone the created project to your local
 machine to work through the code, every time you commit and push changes to the
-github repository, it will automatically deploy to Deno Deploy and you can see
-the changes live.
+github repository.
+
+The project will initially fail to deploy to Deno Deploy, because we don't yet have any code in there, but as we build it out you'll be able to commit and push your work to the repository and see the changes live.
 
 ### Project configuration
 
@@ -342,6 +343,11 @@ stage-1-starter/
 3. Open your browser: Navigate to [http://localhost:8000](http://localhost:8000)
 
 You should see your Dino Runner landing page a link to the server status check.
+
+## Deploy your project to see your updates on Deno Deploy
+
+Commit your changes and push to your GitHub repository. This will trigger
+automatic deployment to Deno Deploy. If you open up the [Deno Deploy dashboard](https://app.deno.com), you will be able see your app build and deploy successfully.
 
 ## Learning objectives completed
 

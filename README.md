@@ -23,12 +23,16 @@ By the end of Stage 1, you'll have:
 
 ### Setup
 
-1. Clone this starter repository
-2. Copy `.env.example` to `.env`
+Deploy this starter kit and explore the code.
+
+[![Deploy on Deno](https://deno.com/button)](https://app.deno.com/new?clone=https://github.com/thisisjofrank/game-tutorial-stage-1-starter.git&install=deno+install)
+
+This button will create a new GitHub repository with the code from this starter kit
+and deploy it to Deno Deploy. Clone the created project to your local machine to work through the code, every time you commit and push changes to the github repository, it will automatically deploy to Deno Deploy and you can see the changes live.
 
 ### Project configuration
 
-First, let's set up the project configuration. Create a `deno.json` file in the
+First, let's set up the project configuration. Edit the `deno.json` file in the
 root directory and set up some scripts to run your project:
 
 <details>

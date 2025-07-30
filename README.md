@@ -32,7 +32,9 @@ kit and deploy it to Deno Deploy. Clone the created project to your local
 machine to work through the code, every time you commit and push changes to the
 github repository.
 
-The project will initially fail to deploy to Deno Deploy, because we don't yet have any code in there, but as we build it out you'll be able to commit and push your work to the repository and see the changes live.
+The project will initially fail to deploy to Deno Deploy, because we don't yet
+have any code in there, but as we build it out you'll be able to commit and push
+your work to the repository and see the changes live.
 
 ### Project configuration
 
@@ -347,7 +349,9 @@ You should see your Dino Runner landing page a link to the server status check.
 ## Deploy your project to see your updates on Deno Deploy
 
 Commit your changes and push to your GitHub repository. This will trigger
-automatic deployment to Deno Deploy. If you open up the [Deno Deploy dashboard](https://app.deno.com), you will be able see your app build and deploy successfully.
+automatic deployment to Deno Deploy. If you open up the
+[Deno Deploy dashboard](https://app.deno.com), you will be able see your app
+build and deploy successfully.
 
 ## Learning objectives completed
 

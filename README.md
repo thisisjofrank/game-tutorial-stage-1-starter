@@ -30,7 +30,7 @@ Deploy this starter kit and explore the code.
 This button will create a new GitHub repository with the code from this starter
 kit and deploy it to Deno Deploy. Clone the created project to your local
 machine to work through the code, every time you commit and push changes to the
-github repository.
+GitHub repository, it will automatically deploy to Deno Deploy.
 
 The project will initially fail to deploy to Deno Deploy, because we don't yet
 have any code in there, but as we build it out you'll be able to commit and push
@@ -56,7 +56,7 @@ root directory and set up some scripts to run your project:
 Tasks are scripts you can run in your terminal, for example `deno task dev` to
 start the development server.
 
-Next we'll install the dependencies we need for this stage, we'll be using the
+Next, we'll install the dependencies we need for this stage. We'll be using the
 [Oak framework](https://jsr.io/@oak/oak) for building our web server:
 
 ```bash
@@ -157,7 +157,7 @@ API routes are endpoints that allow clients (like browsers) to interact with our
 server. They can be used for things like health checks, data retrieval, and
 more.
 
-Wwe will set up one simple API endpoint that checks if the server is running
+We will set up one simple API endpoint that checks if the server is running
 correctly. This is useful for monitoring and debugging.
 
 Make a new directory called `routes` inside `src`, and create the API routes
@@ -265,7 +265,7 @@ Create a new CSS file at `public/css/styles.css` and copy the contents from
 ### Client-side JavaScript
 
 The game will run in a web browser, so we need some client-side JavaScript to
-handle interactions and game logic, for now we'll set up a simple script that
+handle interactions and game logic. For now, we'll set up a simple script that
 checks the server status.
 
 Create the JavaScript file at `public/js/game.js`:
